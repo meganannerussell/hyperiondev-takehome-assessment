@@ -1,0 +1,11 @@
+
+  .smallCard {
+    width: 330px;
+    background-color: white;
+    height: 70px;
+    border-radius: 1px;
+    box-shadow: 3px 3px 15px #f1efef;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+  }

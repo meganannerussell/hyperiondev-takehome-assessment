@@ -1,0 +1,9 @@
+.header {
+  background-color: white;
+  z-index: 100;
+}
+
+.menu {
+  width: 120px;
+  text-align: center;
+}
