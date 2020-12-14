@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./RightMenuItem.css";
 
 export const RightMenuItem = ({
+  title,
   description,
   button1,
   button2,
@@ -9,18 +10,28 @@ export const RightMenuItem = ({
   icon2,
   line1,
   line2,
+  border,
 }) => {
   return (
-    <div className="box">
+    <div
+      className="box"
+      style={{
+        borderBottomStyle: border,
+        borderBottomWidth: "thin",
+        borderBottomColor: "#e0e0e0",
+      }}
+    >
       <h1
         style={{
           fontFamily: "avenir heavy",
           fontSize: 20,
           marginBottom: 20,
           marginLeft: 10,
+          // paddingBottom: 40,
+          // paddingTop: 40,
         }}
       >
-        Trial another Bootcamp
+        {title}
       </h1>
       {icon1 ? (
         <div style={{ display: "flex", alignItems: "center" }}>

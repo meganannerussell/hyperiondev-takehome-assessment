@@ -8,5 +8,16 @@
     display: flex;
     flex-direction: row;
     padding-right: 24px;
+    margin: 10;
+    margin-bottom: 0px;
     /* justify-content: space-between; */
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .smallCard {
+      margin: 200;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
   }

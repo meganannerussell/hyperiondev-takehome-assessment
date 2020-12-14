@@ -1,0 +1,45 @@
+.componentsContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 160px;
+  padding-top: 100px;
+}
+
+.BootCampCardsHeading {
+
+    font-family: "avenir heavy";
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px
+
+}
+
+.BootCampCardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: none;
+}
+
+.RightMenuContainer {
+ padding-left: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .componentsContainer {
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 60px;
+  }
+  .BootCampCardsContainer {
+    flex-direction: column;
+    /* margin: auto; */
+    align-items: center;
+  }
+  .BootCampCardsHeading{
+    text-align: center;
+  }
+  .RightMenuContainer {
+    padding-left: 0px;
+  }
+}

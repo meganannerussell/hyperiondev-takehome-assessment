@@ -33,12 +33,12 @@ export const TrialBlock = () => {
             (1/4 complete)
           </span>
         </h1>
-        <div style={{display: 'flex'}}>
-          <div style={{paddingRight:10, }}>
+        <div className="buttonContainer" >
+          <div  style={{paddingRight:10, }}>
             <button className="buttonTypeTwo" style={{marginBottom: 10}}>Industry knowledge 1</button>
             <button className="buttonTypeTwo">HTML Basics</button>
           </div>
-          <div>
+          <div >
             <button className="buttonTypeTwo" style={{marginBottom: 10}}>Industry knowledge 2</button>
             <button className="buttonTypeTwo">Your First PHP Script</button>
           </div>

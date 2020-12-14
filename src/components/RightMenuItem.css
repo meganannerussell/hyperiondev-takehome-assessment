@@ -1,9 +1,9 @@
 .box {
   padding-bottom: 40px;
   padding-top: 40px;
-  border-bottom-style: solid;
+  /* border-bottom-style: solid;
   border-bottom-width: thin;
-  border-bottom-color: #e0e0e0;
+  border-bottom-color: #e0e0e0; */
 }
 
 .buttonTypeThree {
@@ -19,4 +19,9 @@
   border-color: #E75625;
   margin-bottom: 4px;
   font-size: 16px;
+}
+
+.buttonTypeThree:hover {
+  background-color: #E75625;
+  color: white;
 }
