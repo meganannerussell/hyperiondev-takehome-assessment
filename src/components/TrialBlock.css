@@ -1,12 +1,13 @@
 .card {
   /* width: 55%; */
   background-color: white;
-  height: 450px;
+  /* height: 450px; */
   border-radius: 10px;
   box-shadow: 3px 3px 15px #f1efef;
-  padding-left: 50px;
+  /* padding-left: 50px;
   padding-right: 50px;
-  padding-top: 60px;
+  padding-top: 60px; */
+  padding: 50px 40px 60px 50px;
 }
 
 .cardHeader {
@@ -27,7 +28,6 @@
   border-style: none;
   background-color: #E75625;
   color: white;
-  margin-top: 0px;
   margin-bottom: 4px;
   font-size: 16px;
 }
@@ -39,7 +39,7 @@
 
 
 .buttonTypeTwo {
-  width: 100%;
+  width: 300px;
   height: 38px;
   border-radius: 6px;
   border-style: none;
@@ -48,7 +48,8 @@
   border-style: solid;
   border-width: thin;
   border-color: #E75625;
-  margin-bottom: 4px;
+  /* margin: 0px 10px 8px 10px; */
+  /* margin: 4px 4px 4px 4px; */
   font-size: 16px;
 }
 
@@ -57,16 +58,30 @@
   color: white;
 }
 
-.buttonContainer {
+.buttonsContainer {
   display: flex;
 }
 
+.firstButtonContainer {
+  padding: 5px 10px 5px 0px;
+  width: 100%;
+}
+
+.secondButtonContainer {
+  padding: 5px 5px 5px 0px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
-  .buttonContainer {
+  .buttonsContainer {
     flex-direction: column;
   }
+  .buttonTypeTwo {
+    width: 100%;
+  }
   .card {
-    padding: 0px
+    /* padding: 0px */
+    padding: 0px 20px 40px 20px
   }
   .button{
     margin-top: 15px;

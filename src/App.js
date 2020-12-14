@@ -12,7 +12,10 @@ function App() {
       <Menu />
       <div className="componentsContainer">
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <TrialBlock />
+          <div className="trialBlockContainer">
+            <TrialBlock />
+          </div>
+
           <div style={{ marginTop: 40 }}>
             <h1 className="BootCampCardsHeading">Trial another Bootcamp</h1>
             <div className="BootCampCardsContainer">
@@ -21,7 +24,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="RightMenuContainer" >
+        <div className="RightMenuContainer">
           <RightMenuItem
             title="Your coding journey"
             icon1="1"
@@ -39,7 +42,7 @@ function App() {
           />
           <RightMenuItem
             title="Upgrade to the full bootcamp"
-            description="We're ready to help with any questions you may have"
+            description="Our next cohort starts 3 January 2018."
             button1="Reserve your spot"
           />
         </div>

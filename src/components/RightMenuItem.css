@@ -1,6 +1,6 @@
 .box {
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   /* border-bottom-style: solid;
   border-bottom-width: thin;
   border-bottom-color: #e0e0e0; */
@@ -9,6 +9,7 @@
 .buttonTypeThree {
   margin:10px;
   /* width: 0%; */
+  width: fit-content;
   height: 38px;
   border-radius: 6px;
   border-style: none;
@@ -19,9 +20,25 @@
   border-color: #E75625;
   margin-bottom: 4px;
   font-size: 16px;
+  padding: 0px 20px 0px 20px
+
 }
 
 .buttonTypeThree:hover {
   background-color: #E75625;
   color: white;
+
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1200px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

@@ -3,7 +3,26 @@
   z-index: 100;
 }
 
+.subheading{
+font-family: "avenir-heavy";
+font-size: 16px;
+color: #f0571b; 
+font-weight:800;
+margin-top:0px
+}
+
 .menu {
   width: 120px;
   text-align: center;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu{
+    margin: 0px;
+  }
+  .subheading {
+    font-size: 12px;
+  }
+
 }

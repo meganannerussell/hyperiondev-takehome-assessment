@@ -65,9 +65,14 @@ export const RightMenuItem = ({
       ) : null}
 
       <p style={{ fontSize: 16, margin: 10 }}>{description}</p>
-      {button1 ? <button className="buttonTypeThree">{button1}</button> : null}
-
-      {button2 ? <button className="buttonTypeThree">{button2}</button> : null}
+      <div className="buttonContainer">
+        {button1 ? (
+          <button className="buttonTypeThree">{button1}</button>
+        ) : null}
+        {button2 ? (
+          <button className="buttonTypeThree">{button2}</button>
+        ) : null}
+      </div>
     </div>
   );
 };

@@ -13,8 +13,8 @@ export const Menu = () => {
   );
 
   const options = [
-    { key: "user", text: "Account", icon: "Edit Profile" },
-    { key: "sign-out", text: "Sign Out", icon: "Log out" },
+    { key: "user", text: "Account" },
+    { key: "sign-out", text: "Sign Out"},
   ];
 
   return (
@@ -27,9 +27,9 @@ export const Menu = () => {
         position: "fixed",
         backgroundColor: "white",
         width: "100%",
-        height: 40,
+        // height: 40,
         // paddingLeft: 20,
-        paddingRight: 60,
+        padding: '12px 30px 12px 30px',
       }}
     >
       <div
@@ -37,7 +37,7 @@ export const Menu = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-around",
-          width: "40%",
+          // width:  "40%",
         }}
       >
         <a
@@ -45,20 +45,22 @@ export const Menu = () => {
           rel="noopener noreferrer"
           href="https://www.retailcapital.co.za/?utm_source=email&utm_medium=menu_bar&utm_campaign=homepage"
         >
-          <img src={logo} alt="logo" style={{ width: 140 }} />
+          <img src={logo} alt="logo" style={{ width: 140, marginRight: 40 }} />
         </a>
-        <p
-          style={{ fontFamily: "avenir-heavy", fontSize: 16, color: "#f0571b", fontWeight:1000 }}
+        <h2
+        className="subheading"
+         
         >
           Full Stack Web Developer Bootcamp
-        </p>
+        </h2>
       </div>
 
       <Dropdown
+     
         trigger={trigger}
         options={options}
-        pointing="top left"
-        icon={null}
+        // pointing="top left"
+        // icon={null}
       />
     </div>
   );
