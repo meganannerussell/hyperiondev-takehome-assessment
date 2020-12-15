@@ -12,7 +12,8 @@ export const TrialBlock = () => {
           <img
             src={icon}
             alt="icon"
-            style={{ width: 120, marginTop: 6, marginRight: 40 }}
+            className= "icon"
+           
           />
         </div>
         <div
@@ -22,9 +23,9 @@ export const TrialBlock = () => {
             justifyContent: "space-between",
           }}
         >
-          <p style={{ fontSize: 25, marginBottom: 0 }}>
+          <h1 className="cardHeading" >
             Web Development Bootcamp Trial
-          </p>
+          </h1>
           <button className="button">
             Continue your trial
             <span>
@@ -38,14 +39,14 @@ export const TrialBlock = () => {
         </div>
       </div>
       <div style={{ paddingTop: 35 }}>
-        <h1
+        <h2
           style={{ fontFamily: "avenir heavy", fontSize: 20, marginBottom: 30 }}
         >
           Your progress
           <span style={{ fontFamily: "avenir", fontWeight: 100 }}>
             (1/4 complete)
           </span>
-        </h1>
+        </h2>
         <div className="buttonsContainer">
           <div>
             <div className="buttonContainer">

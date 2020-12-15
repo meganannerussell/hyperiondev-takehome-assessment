@@ -4,12 +4,12 @@ import { BootCampCard } from "./components/BootCampCard.js";
 import { RightMenuItem } from "./components/RightMenuItem.js";
 import icon1 from "./assets/layer-115@2x.png";
 import icon2 from "./assets/layer-114@2x.png";
-import titleIcon from "./assets/questionMarkIcon.png"
-import styles from "./App.css";
+import titleIcon from "./assets/questionMarkIcon.png";
+import "./App.css";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#FAFAFA", height: "100vh" }}>
+    <div style={{ minHeight: "100vh" }}>
       <Menu />
       <div className="componentsContainer">
         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -28,7 +28,7 @@ function App() {
         <div className="RightMenuContainer">
           <RightMenuItem
             title="Your coding journey"
-            titleIcon= {titleIcon}
+            titleIcon={titleIcon}
             icon1="1"
             icon2="4"
             line1=" Total programs written"

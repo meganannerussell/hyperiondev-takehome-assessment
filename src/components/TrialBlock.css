@@ -1,24 +1,29 @@
 .card {
-  /* width: 55%; */
   background-color: white;
-  /* height: 450px; */
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 15px #f1efef;
-  /* padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 60px; */
   padding: 50px 40px 60px 50px;
 }
 
 .cardHeader {
   display: flex;
-  flex-direction:row;
-  /* justifyContent: space-around */
+  flex-direction: row;
   padding-bottom: 50px;
   border-bottom: 1px solid;
   border-bottom-color: #0000001f;
-  /* width: 95%; */
   margin: auto;
+}
+
+.icon {
+  width: 120px;
+  margin-top: 6px;
+  margin-right: 40px;
+}
+
+.cardHeading {
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-family: "avenir-medium";
 }
 
 .button {
@@ -26,36 +31,35 @@
   height: 38px;
   border-radius: 6px;
   border-style: none;
-  background-color: #E75625;
+  background-color: #e75625;
   color: white;
   margin-bottom: 4px;
   font-size: 16px;
+  font-family: "avenir-heavy";
 }
 
 .button:hover {
   box-shadow: 3px 3px 15px #e0dddd;
+  cursor: pointer;
 }
-
-
 
 .buttonTypeTwo {
   width: 300px;
   height: 38px;
   border-radius: 6px;
   border-style: none;
-  background-color:white;
-  color: #E75625;
+  background-color: white;
+  color: #e75625;
   border-style: solid;
   border-width: thin;
-  border-color: #E75625;
-  /* margin: 0px 10px 8px 10px; */
-  /* margin: 4px 4px 4px 4px; */
+  border-color: #e75625;
   font-size: 16px;
+  font-family: "avenir-heavy";
 }
 
 .buttonTypeTwo:hover {
-  background-color: #E75625;
-  color: white;
+  box-shadow: 2px 2px 12px #e0ddddb0;
+  cursor: pointer;
 }
 
 .buttonsContainer {
@@ -64,24 +68,31 @@
 }
 
 .buttonContainer {
-  padding: 5px 5px 5px 2.5px;
+  padding: 6px 6px 6px 6px;
   width: 100%;
 }
 
+@media only screen and (max-width: 1200px) {
+  .card {
+    /* padding: 0px */
+    padding: 30px 20px 40px 20px;
+  }
+  .icon {
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 2px;
+  }
+  .cardHeading {
+    font-size: 20px;
+  }
 
-@media only screen and (max-width: 1000px) {
+  .button {
+    margin-top: 15px;
+  }
   .buttonsContainer {
     flex-direction: column;
   }
   .buttonTypeTwo {
     width: 100%;
   }
-  .card {
-    /* padding: 0px */
-    padding: 0px 20px 40px 20px
-  }
-  .button{
-    margin-top: 15px;
-  }
- 
 }
