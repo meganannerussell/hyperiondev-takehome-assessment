@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./TrialBlock.css";
 import icon from "../assets/beginner-php-fundamentals@3x.png";
+import arrowIcon from "../assets/arrowIcon.png";
+import tickIcon from "../assets/tickIcon.png";
 
 export const TrialBlock = () => {
   return (
@@ -23,7 +25,16 @@ export const TrialBlock = () => {
           <p style={{ fontSize: 25, marginBottom: 0 }}>
             Web Development Bootcamp Trial
           </p>
-          <button className="button">Continue your trial</button>
+          <button className="button">
+            Continue your trial
+            <span>
+              <img
+                src={arrowIcon}
+                alt="icon"
+                style={{ width: 6, marginLeft: 10 }}
+              />
+            </span>
+          </button>
         </div>
       </div>
       <div style={{ paddingTop: 35 }}>
@@ -37,18 +48,30 @@ export const TrialBlock = () => {
         </h1>
         <div className="buttonsContainer">
           <div>
-            <div className="firstButtonContainer">
-              <button className="buttonTypeTwo">Industry knowledge 1</button>
+            <div className="buttonContainer">
+              <button
+                style={{ backgroundColor: "#E75625", color: "white" }}
+                className="buttonTypeTwo"
+              >
+                Industry knowledge 1
+                <span>
+                  <img
+                    src={tickIcon}
+                    alt="icon"
+                    style={{ width: 12, marginLeft: 10 }}
+                  />
+                </span>
+              </button>
             </div>
-            <div className="firstButtonContainer">
-              <button className="buttonTypeTwo">HTML Basics</button>
+            <div className="buttonContainer">
+              <button className="buttonTypeTwo">Industry knowledge 2</button>
             </div>
           </div>
           <div>
-            <div className="secondButtonContainer">
-              <button className="buttonTypeTwo">Industry knowledge 2</button>
+            <div className="buttonContainer">
+              <button className="buttonTypeTwo">HTML Basics</button>
             </div>
-            <div className="secondButtonContainer">
+            <div className="buttonContainer">
               <button className="buttonTypeTwo">Your First PHP Script</button>
             </div>
           </div>

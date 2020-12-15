@@ -3,6 +3,7 @@ import styles from "./RightMenuItem.css";
 
 export const RightMenuItem = ({
   title,
+  titleIcon,
   description,
   button1,
   button2,
@@ -21,18 +22,22 @@ export const RightMenuItem = ({
         borderBottomColor: "#e0e0e0",
       }}
     >
-      <h1
-        style={{
-          fontFamily: "avenir heavy",
-          fontSize: 20,
-          marginBottom: 20,
-          marginLeft: 10,
-          // paddingBottom: 40,
-          // paddingTop: 40,
-        }}
-      >
-        {title}
-      </h1>
+      <div style={{display:"flex"}}>
+        <h1
+          style={{
+            fontFamily: "avenir heavy",
+            fontSize: 20,
+            marginBottom: 20,
+            marginLeft: 10,
+            // paddingBottom: 40,
+            // paddingTop: 40,
+          }}
+        >
+          {title}
+        </h1>
+        {titleIcon ? <img src={titleIcon} alt="icon" style={{width:25, height:25, marginLeft:10}} /> : null}
+      </div>
+
       {icon1 ? (
         <div style={{ display: "flex", alignItems: "center" }}>
           <p

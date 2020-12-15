@@ -45,7 +45,7 @@ export const Menu = () => {
           rel="noopener noreferrer"
           href="https://www.retailcapital.co.za/?utm_source=email&utm_medium=menu_bar&utm_campaign=homepage"
         >
-          <img src={logo} alt="logo" style={{ width: 140, marginRight: 40 }} />
+          <img src={logo} alt="logo" className="logo"  />
         </a>
         <h2
         className="subheading"

@@ -4,6 +4,7 @@ import { BootCampCard } from "./components/BootCampCard.js";
 import { RightMenuItem } from "./components/RightMenuItem.js";
 import icon1 from "./assets/layer-115@2x.png";
 import icon2 from "./assets/layer-114@2x.png";
+import titleIcon from "./assets/questionMarkIcon.png"
 import styles from "./App.css";
 
 function App() {
@@ -27,8 +28,9 @@ function App() {
         <div className="RightMenuContainer">
           <RightMenuItem
             title="Your coding journey"
+            titleIcon= {titleIcon}
             icon1="1"
-            icon2="2"
+            icon2="4"
             line1=" Total programs written"
             line2="Total code reviews"
             border="solid"

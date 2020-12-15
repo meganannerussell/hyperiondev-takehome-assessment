@@ -60,17 +60,14 @@
 
 .buttonsContainer {
   display: flex;
+  flex-direction: row;
 }
 
-.firstButtonContainer {
-  padding: 5px 10px 5px 0px;
+.buttonContainer {
+  padding: 5px 5px 5px 2.5px;
   width: 100%;
 }
 
-.secondButtonContainer {
-  padding: 5px 5px 5px 0px;
-  width: 100%;
-}
 
 @media only screen and (max-width: 1000px) {
   .buttonsContainer {

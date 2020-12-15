@@ -13,6 +13,10 @@
     /* justify-content: space-between; */
   }
 
+  .smallCard:hover {
+    box-shadow: 3px 3px 15px #cecdcd;
+  }
+
   @media only screen and (max-width: 1000px) {
     .smallCard {
       margin: 200;
