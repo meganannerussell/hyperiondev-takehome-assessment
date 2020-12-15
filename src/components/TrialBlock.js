@@ -41,7 +41,7 @@ export const TrialBlock = () => {
           </span>
         </h2>
         <div className="buttonsContainer">
-          <div>
+          <div className="twoBtnsContainer">
             <div className="buttonContainer">
               <button
                 style={{ backgroundColor: "#E75625", color: "white" }}
@@ -61,7 +61,7 @@ export const TrialBlock = () => {
               <button className="buttonTypeTwo">Industry knowledge 2</button>
             </div>
           </div>
-          <div>
+          <div className="twoBtnsContainer">
             <div className="buttonContainer">
               <button className="buttonTypeTwo">HTML Basics</button>
             </div>

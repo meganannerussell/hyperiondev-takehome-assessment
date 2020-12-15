@@ -64,6 +64,11 @@
 
 .buttonsContainer {
   display: flex;
+  flex-direction: column;
+}
+
+.twoBtnsContainer {
+  display: flex;
   flex-direction: row;
 }
 
@@ -91,8 +96,11 @@
   .buttonsContainer {
     flex-direction: column;
   }
+  .twoBtnsContainer {
+    display: flex;
+    flex-direction: column;
+  }
   .buttonTypeTwo {
     width: 100%;
   }
 }
-
