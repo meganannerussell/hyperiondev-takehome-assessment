@@ -48,16 +48,3 @@
     padding: 0px 20px 0px 20px;
   }
 }
-
-/* @media only screen and (max-width: 1300px) {
-  .componentsContainer {
-    flex-direction: column;
-    margin: 10px;
-    padding-top: 60px;
-    padding-left: 0px;
-  }
-  .RightMenuContainer {
-    flex-direction: row;
-    padding: 0px 20px 0px 20px;
-  }
-} */

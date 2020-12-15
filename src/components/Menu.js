@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Menu.css";
 import logo from "../assets/url@2x.png";
 import student from "../assets/student.png";
 import "semantic-ui-css/semantic.min.css";
 import { Dropdown, Image } from "semantic-ui-react";
+import "./Menu.css";
 
 export const Menu = () => {
   const trigger = (

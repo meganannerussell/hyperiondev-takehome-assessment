@@ -37,7 +37,7 @@ function App() {
           />
           <RightMenuItem
             title="Get more information"
-            description="We're ready to help with any questions you may have"
+            description="We're ready to help with any questions you may have about our Bootcamps and Mentor Support."
             button1="Book a call"
             button2="Join an info session"
             border="solid"
