@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Please find my final webpage [here](https://hyperiondev-assessment-russell.herokuapp.com/)
 
-## Available Scripts
 
-In the project directory, you can run:
+# Technology
 
-### `npm start`
+This webpage was created using React as well as Semantic-UI ( which was only used for the creation of the dropdown menu). I used plain CSS for styling and deployed it with Heroku for review.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+By using React I was able to make some of the elements into re-useable components; namely the Bootcamp cards and the Right-hand menu items. I chose React in order to make the code more concise and to ensure that implementing new content will be more efficient in the future (for instance if new Bootcamps are required to be added).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Adjustments
 
-### `npm test`
+I added minor adjustments to spacing and alignment in certain areas such as giving a little more padding to the navigation bar and extending the width of the Bootcamp cards in order to align with the above Trial-block card ( within the desktop view). I did this to give a little more breathing room around the menu items and to make it easier to read. The alignment of the boxes was just done for a more consistent sense of space and flow around the components. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I added a hover effect to all clickable elements. Within the trial block, all buttons have a box shadow and the Bootcamp cards below have a more prominent shadow. The call-to-action buttons on the Right-hand menu change to orange – as to draw 
+maximum attention.
 
-### `npm run build`
+# Further work
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If I were to continue working on this project, I would allocate more time to ensuring the page be more consistent and slightly more refined across all mobile devices. While I am happy with the appearance on the main breakpoints and most popular device types ( desktop, tablet and mobile) there is definitely room for improvement on certain breakpoints ( between tablet and desktop and smaller mobile views).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
