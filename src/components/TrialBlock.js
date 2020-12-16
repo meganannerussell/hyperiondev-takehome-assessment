@@ -43,10 +43,7 @@ export const TrialBlock = () => {
         <div className="buttonsContainer">
           <div className="twoBtnsContainer">
             <div className="buttonContainer">
-              <button
-                style={{ backgroundColor: "#E75625", color: "white" }}
-                className="buttonTypeTwo"
-              >
+              <button className="clickedButtonTypeTwo">
                 Industry knowledge 1
                 <span>
                   <img

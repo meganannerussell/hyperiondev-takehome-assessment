@@ -57,10 +57,33 @@
   font-family: "avenir-heavy";
 }
 
+
+
 .buttonTypeTwo:hover {
   box-shadow: 2px 2px 12px #e0ddddb0;
   cursor: pointer;
 }
+
+.clickedButtonTypeTwo {
+  width: 300px;
+  height: 38px;
+  border-radius: 6px;
+  border-style: none;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e75625;
+  font-size: 16px;
+  font-family: "avenir-heavy";
+  background-color: #e75625;
+  color: white;
+}
+
+.clickedButtonTypeTwo:hover {
+  box-shadow: 2px 2px 12px #b3b2b2ba;
+  cursor: pointer;
+}
+
+
 
 .buttonsContainer {
   display: flex;
